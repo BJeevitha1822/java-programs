@@ -1,6 +1,6 @@
 public class TypeCasting {
     public static void main(String[] args) {
-
+     //Type casting means converting one data type into another data type.
         // Widening casting  (smaller type->larger type)
         int number = 100;
         double decimal = number;
