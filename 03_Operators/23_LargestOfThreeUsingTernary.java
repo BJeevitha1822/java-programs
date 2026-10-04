@@ -14,7 +14,7 @@ public class LargestOfThreeUsingTernary {
         System.out.print("Enter third number: ");
         int c = sc.nextInt();
 
-        int largest = (a > b)
+        int largest = (a > b)                          //if a>b is true it checks a>c if a>b is false it checks b>c 
                     ? ((a > c) ? a : c)
                     : ((b > c) ? b : c);
 
